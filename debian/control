@@ -1,0 +1,20 @@
+Source: libbusiness-hours-perl
+Section: perl
+Priority: optional
+Maintainer: Evgeni Golov <evgeni@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libset-intspan-perl (>= 1.12),
+ perl (>= 5.0.0)
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/Business-Hours/
+
+Package: libbusiness-hours-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libset-intspan-perl (>= 1.12)
+Description: unknown
+ Business::Hours is a simple tool for calculating business hours in a time
+ period. Over time, additional functionality will be added to make it easy to
+ calculate the number of business hours between arbitrary dates.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
