@@ -4,7 +4,7 @@
       "Jesse Vincent (jesse@cpan.org)"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "unknown"
    ],
@@ -22,20 +22,21 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Set::IntSpan" : "1.12"
+            "Set::IntSpan" : "1.12",
+            "Time::Local" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.10"
+   "version" : "0.12"
 }
