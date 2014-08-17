@@ -1,3 +1,9 @@
+libbusiness-hours-perl (0.12-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.12
+
+ -- Mateusz Kijowski <mateusz.kijowski@gmail.com>  Sun, 17 Aug 2014 18:23:46 +0200
+
 libbusiness-hours-perl (0.10-1) unstable; urgency=low
 
   * Initial Release.
